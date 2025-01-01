@@ -1,0 +1,20 @@
+{
+  "Version": 1,
+  "Hash": "wsHcdaqkj/g4FoPhHWiQO+FA7N72tOX/E2D8sEFOkIg=",
+  "Source": "MyWebAPI",
+  "BasePath": "_content/MyWebAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyWebAPI\\wwwroot",
+      "Source": "MyWebAPI",
+      "ContentRoot": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\wwwroot\\",
+      "BasePath": "_content/MyWebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [],
+  "Endpoints": []
+}

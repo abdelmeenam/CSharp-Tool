@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CDI Medication Guiding Tool</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        /* Global Styles */
+        body {
+            background-color: #f0f4f8; /* Light Gray-Blue Background */
+            font-family: 'Arial', sans-serif;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            margin-top: 20px;
+            padding: 20px;
+        }
+
+        h1 {
+            text-align: center;
+            color: #007bff; /* Primary Blue */
+            font-weight: bold;
+            margin-bottom: 20px;
+            font-size:30px ;
+        }
+
+        /* Dropdown Styling */
+        .form-select {
+            box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Soft shadow */
+            border-radius: 10px;
+            border: 1px solid #007bff;
+            font-size: 1.1rem;
+            transition: all 0.3s ease;
+        }
+
+        .form-select:focus {
+            box-shadow: 0px 0px 10px rgba(0, 123, 255, 0.5); /* Blue Glow */
+            outline: none;
+            border-color: #0056b3;
+        }
+
+        /* Loading and Error Messages */
+        #loading {
+            color: #007bff;
+            font-size: 1.2rem;
+            text-align: center;
+        }
+
+        #error {
+            font-size: 1rem;
+            text-align: center;
+            color: #dc3545;
+            margin-top: 10px;
+        }
+
+        /* Card Styling */
+        .card {
+            box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1); /* Deep Shadow */
+            border: none;
+            border-radius: 15px;
+            background: linear-gradient(145deg, #ffffff, #e6e6e6); /* Soft Gradient */
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px); /* Hover Lift Effect */
+            box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.15);
+        }
+
+        .card-body {
+            background-color: #ffffff;
+            border-radius: 15px;
+            padding: 20px;
+        }
+
+        .card h5 {
+            color: #007bff; /* Primary Blue */
+            font-size: 1.3rem;
+        }
+
+        .list-group-item {
+            font-size: 1rem;
+            color: #555;
+            padding: 12px 15px;
+            border: none;
+            background: #f9f9f9;
+            border-radius: 10px;
+            margin-bottom: 5px;
+            transition: all 0.3s ease;
+        }
+
+        .list-group-item:hover {
+            background-color: #e6f7ff; /* Light Blue on Hover */
+            color: #007bff; /* Blue Text on Hover */
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            color: #777;
+            font-size: 0.9rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>CDI Medication Guiding Tool 💊        </h1>
+        
+        <!-- Drug Selection Dropdown -->
+        <div class="mb-4 col">
+            <label for="drugDropdown" class="form-label fw-bold">Select a Drug:</label>
+            <select id="drugDropdown" class="form-select p-2">
+                <option value="">-- Choose a Drug --</option>
+            </select>
+        </div>
+
+        <div class="row  d-none" id="additionalDropdowns">
+            <div class="col-md-6">
+                <label for="ndcDropdown" class="form-label fw-bold">Select a NDC:</label>
+                <select id="ndcDropdown" class="form-select p-2">
+                    <option value="">-- Choose an NDC --</option>
+                </select>
+            </div>
+            <div class="col-md-6">
+                <label for="insuranceDropdown" class="form-label fw-bold">Select a Insurance:</label>
+                <select id="insuranceDropdown" class="form-select p-2">
+                    <option value="">-- Choose a Insurance --</option>
+                </select>
+            </div>
+
+        </div>
+
+        <!-- Loading Indicator -->
+        <div id="loading" class="d-none">Loading data, please wait...</div>
+
+        <!-- Error Message -->
+        <div id="error" class="d-none">Failed to load data. Please check your connection or try again later.</div>
+
+        <!-- Drug Details Card -->
+        <!-- <div id="drugDetails" class="card d-none mt-4">        </div> -->
+
+        <div class="table-responsive mt-4 " >
+            <table class="table table-bordered table-hover" id="myTable">
+                <thead class="table-light">
+                    <tr>
+                        <th>Date</th>
+                        <th>Script</th>
+                        <th>Drug Name</th>
+                        <th>NDC</th>
+                        <th>Prescriber</th>
+                        <th>Quantity</th>
+                        <th>insPay</th>
+                        <th>PatPay</th>
+                        <th>Class</th>
+                        <th>Net Price</th>
+                    </tr>
+                </thead>
+                <tbody id="resultsTableBody"></tbody>
+            </table>
+        </div>
+    </div>
+
+    <footer>
+        © 2024 CDI Medication Guiding Tool - All rights reserved
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

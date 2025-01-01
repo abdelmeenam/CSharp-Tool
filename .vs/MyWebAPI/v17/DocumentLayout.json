@@ -1,0 +1,126 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|e:\\banyan\\2023\\dec\\25-12\\mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|e:\\banyan\\2023\\dec\\25-12\\mywebapi\\controllers\\drugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|solutionrelative:controllers\\drugscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|e:\\banyan\\2023\\dec\\25-12\\mywebapi\\models\\drug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|solutionrelative:models\\drug.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|e:\\banyan\\2023\\dec\\25-12\\mywebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|e:\\banyan\\2023\\dec\\25-12\\mywebapi\\context\\drugdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|solutionrelative:context\\drugdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|e:\\banyan\\2023\\dec\\25-12\\mywebapi\\models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1A5EB328-F23F-497D-97B9-BFA2536300CF}|MyWebAPI.csproj|solutionrelative:models\\prescription.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DrugDbContext.cs",
+              "DocumentMoniker": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\Context\\DrugDbContext.cs",
+              "RelativeDocumentMoniker": "Context\\DrugDbContext.cs",
+              "ToolTip": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\Context\\DrugDbContext.cs*",
+              "RelativeToolTip": "Context\\DrugDbContext.cs*",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-01T18:44:02.707Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-01-01T18:42:43.081Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Drug.cs",
+              "DocumentMoniker": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\Models\\Drug.cs",
+              "RelativeDocumentMoniker": "Models\\Drug.cs",
+              "ToolTip": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\Models\\Drug.cs",
+              "RelativeToolTip": "Models\\Drug.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAiwAUAAAARAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T18:39:29.756Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\Program.cs*",
+              "RelativeToolTip": "Program.cs*",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAABgAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:46:19.815Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DrugsController.cs",
+              "DocumentMoniker": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\Controllers\\DrugsController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DrugsController.cs",
+              "ToolTip": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\Controllers\\DrugsController.cs",
+              "RelativeToolTip": "Controllers\\DrugsController.cs",
+              "ViewState": "AgIAAEkAAAAAAAAAAAAzwBkAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:16:11.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Prescription.cs",
+              "DocumentMoniker": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\Models\\Prescription.cs",
+              "RelativeDocumentMoniker": "Models\\Prescription.cs",
+              "ToolTip": "E:\\Banyan\\2023\\Dec\\25-12\\MyWebAPI\\Models\\Prescription.cs",
+              "RelativeToolTip": "Models\\Prescription.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T17:31:24.338Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

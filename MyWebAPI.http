@@ -1,0 +1,44 @@
+### Get all drugs
+GET https://localhost:5001/api/drugs
+Accept: application/json
+
+###
+
+### Get a specific drug by ID
+GET https://localhost:5001/api/drugs/1
+Accept: application/json
+
+###
+
+### Add a new drug
+POST https://localhost:5001/api/drugs
+Content-Type: application/json
+
+{
+  "drugName": "Paracetamol",
+  "manufacturer": "HealthPharma",
+  "price": 4.99,
+  "description": "Common painkiller.",
+  "expirationDate": "2024-06-30"
+}
+
+###
+
+### Update an existing drug
+PUT https://localhost:5001/api/drugs/1
+Content-Type: application/json
+
+{
+  "drugID": 1,
+  "drugName": "Ibuprofen",
+  "manufacturer": "MediLife",
+  "price": 7.49,
+  "description": "Used for pain relief and anti-inflammatory purposes.",
+  "expirationDate": "2026-03-15"
+}
+
+###
+
+### Delete a drug
+DELETE https://localhost:5001/api/drugs/1
+Accept: application/json
